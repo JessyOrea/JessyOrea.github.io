@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jessy Orea</title>
+
+     <link rel="stylesheet" href="css/estilos.css">
+
+      <!--Link para iconos de Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+     <!-- Latest compiled and minified CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Cardo&family=Comfortaa:wght@600&family=Satisfy&display=swap" rel="stylesheet">
+    
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cardo&family=Satisfy&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&family=REM:wght@200&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <header class="container-fluid row"> <!--Container fluid es para hacer que se adecue a toda la pantalla-->
+        <nav class="navbar navbar-expand-sm ">
+            <a href="#" class="navbar-brand" id="inicio">Jessy Orea</a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#miMenu"><!--toggle es para descolgar algo (mostar o ocultar algo)-->
+                <span class="navbar-toggler-icon"></span>
+            </button> 
+            <div class="collapse navbar-collapse text-center" id="miMenu">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#habilidades" class="nav-link">Habilidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#certificaciones" class="nav-link">certificaciones</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#portafolio" class="nav-link">Portafolio</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section  class=" seccion">
+        <article class="container-fluid mt-3"> <!--mt es margin top-->
+            <div class="espacio"></div>
+                <img id="foto" src="media/imagen.png" alt="foto jessy orea" class="position-absolute d-block"> <!--d-blocck es la clase de bootstrap para que una imagen esté tras otra-->
+                        <div id="tarjeta" class="card position-absolute col-sm-4"><!--Tarjetas-->
+                            <div class="card-body">
+                                <h1 class="card-top"> Hola, me llamo Jessy, me alegra tenerte por aquí </h1>
+                            </div>
+                            <p class="card-text">Soy estudiante en entornos virtuales y negocios 
+                                digitales.
+                            </p>
+                            <br>
+                            <p class="card-text">   “De vez en cuando, una nueva tecnología, un antiguo problema y una gran 
+                                idea se convierten en una innovación”. </p>
+                              <p> - Dean Kamen. Creador del Segway y el iBOT.</p>
+                            <div class="text-center">
+                                <a href="https://api.whatsapp.com/send?phone=524771351090&text=Hola,%20me%20interesa%20tu%20servicio%20" 
+                                target="_blank" class=" col-sm-4 btn" id="boton">Contactame</a><!--volver un enlace un boton-->
+                            </div>
+                            </div> 
+        </article>
+    </section>
+
+    <section class=" seccion1" id="habilidades">
+        <img src="media/curva.png" alt="curva" id="curva">
+        <div class="espacio"></div>
+        <div class="espacio"></div>
+        <h1>Mis habilidades</h1>
+    <div class="container">
+        <div class="row">
+        <div id="lado1" class="col-sm-4">
+        <h2>Conocimiento:</h2>
+        <label>Programación Java:</label>
+        <progress id="file" max="100" value="70">70%</progress>
+        <label>Programación Web:</label>
+        <progress id="file" max="100" value="70">70%</progress>
+        <label>Ecxel:</label>
+        <progress id="file" max="100" value="100">100%</progress>
+        <label>Powepoint:</label>
+        <progress id="file" max="100" value="100">100%</progress>
+        <label>Word:</label>
+        <progress id="file" max="100" value="100">100%</progress>
+        <label>Photoshop:</label>
+        <progress id="file" max="100" value="100">100%</progress>
+        <label>Ilustrator:</label>
+        <progress id="file" max="100" value="100">100%</progress>
+        <label>Premiere pro:</label>
+        <progress id="file" max="100" value="100">100%</progress>
+        </div>
+
+
+            <div id="lado2" class="col-sm-2">
+                <h2>Idiomas:</h2>
+                <label>Español: Nativo</label>
+                <br>
+                <label>Inglés:</label>
+                <progress id="file" max="100" value="100">100%</progress>
+                <label>Frances:</label>
+                <progress id="file" max="100" value="10">10%</progress>
+            </div>
+    </div>
+    <div class="espacio"></div>
+    </div>
+
+    <div class="container" id="certificaciones" >
+        <div class="espacio"></div>
+        <article class="row" id="cer"> <!--Row es un renglón-->
+           <h1 class="text-center">Certificaciones</h1> 
+           <div class="espacio"></div>
+           <article class="col-sm-2" id="espacioBlanco"></article>
+            <article class="col-sm-3 text-center">
+                <img src="media/cisco.jpeg" alt="cisco logo">
+                <p>Certificación cisco en: Introduction to Networks y Switching, Routing, and Wireless Essentials.</p>
+            </article>
+            <article class="col-sm-2 text-center">
+            </article>
+            <article class="col-sm-3 text-center">
+                <img src="media/googe.png" alt="google logo" height="150px">
+                <p>Certificación de Google en: Fundamentos de Marketing Digital e introduccion al desarrollo web I y II</p>
+            </article>
+            <article class="col-sm-2" id="espacioBlanco"></article>
+    
+            </article>
+            <div class="espacio"></div>
+    </div>
+    </article>
+    </section>
+
+<section class="container-fluid" id="portafolio">
+    <div class="espacio"></div>
+    <h1>Portafolio</h1>
+    
+    <div class="row">
+    <div class="col-sm-4">
+        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#isModal">
+            <img src="media/codificacion.gif" alt="gif" width="100%">
+            <h3>Desarrollo web</h3>
+        </button> <!--toggle es para descolgar algo-->
+    </div>
+    <div class="modal" id="isModal">
+        <div class="modal-dialog"> <!--caja de alertas-->
+            <div class="modal-content"> <!--contendio para el modal-->
+                <div class="modal-header"> 
+                    <h3 class="modal-title"> Proyectos de desarrollo web</h3>
+                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <img src="media/logo.png" width="100%">
+                                </div>
+                                <div class="col-sm-6">
+                                    <p>Apoyo al proyecto del campo a tu mesa con landing page</p>
+                                    <a class="btn btn-dark" target="_blank" href="https://landing--jessyorea.repl.co/#"> Visitar el sitio </a>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <img src="media/Mesa de trabajo 2.png" width="100%">
+                                </div>
+                                <div class="col-sm-6">
+                                    <p>Sitio artístico con animaciones de una historia original </p>
+                                    <a class="btn btn-dark" target="_blank" href="https://erin--jessyorea.repl.co/#"> Visitar el sitio </a>
+                                </div>
+                            </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-sm-4">
+        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#itModal">
+            <img src="media/medios-de-comunicacion-social.gif" alt="gif" width="100%">
+            <h3>Social media</h3>
+        </button> <!--toggle es para descolgar algo-->
+    </div>
+    <div class="modal" id="itModal">
+        <div class="modal-dialog"> <!--caja de alertas-->
+            <div class="modal-content"> <!--contendio para el modal-->
+                <div class="modal-header"> 
+                    <h3 class="modal-title"> Proyectos de mercadotecnia digital</h3>
+                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <img src="media/facebool.png" width="100%">
+                                </div>
+                                <div class="col-sm-6">
+                                    <p>Creación de página de facebook </p>
+                                    <p> generación y candelarización de publicaciones</p>
+                                     <p>Programación de chat bots de respuesta</p>
+                                    <a class="btn btn-dark" target="_blank" href="https://www.facebook.com/profile.php?id=100094184861482"> Visitar el sitio </a>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <img src="media/insta.png" width="100%">
+                                </div>
+                                <div class="col-sm-6">
+                                    <p>Creación de instagram </p>
+                                    <p> generación y candelarización de publicaciones</p>
+                                     <p>Programación de chat bots de respuesta</p>
+                                    <a class="btn btn-dark" target="_blank" href="https://www.instagram.com/delcampoatumesa.leon"> Visitar el sitio </a>
+                                </div>
+                            </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-sm-4">
+        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#iuModal">
+            <img src="media/camara.gif" alt="gif" width="100%">
+            <h3>Fotografía</h3>
+        </button> <!--toggle es para descolgar algo-->
+    </div>
+    <div class="modal" id="iuModal">
+        <div class="modal-dialog"> <!--caja de alertas-->
+            <div class="modal-content"> <!--contendio para el modal-->
+                <div class="modal-header"> 
+                    <h3 class="modal-title"> Galería Fotográfica</h3>
+                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <img src="media/abeja.jpg" width="100%">
+                                </div>
+                                <div class="col-sm-12">
+                                    <p>Fotografía tomada en celular de mi autoria</p>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <img src="media/edicion.gif" width="100%">
+                                </div>
+                                <div class="col-sm-12">
+                                    <p>Edición de GIF</p>
+                                </div>
+                            </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+<div class="espacio"></div>
+  
+</section>
+
+<footer class="footer">
+    <div class="text-center">
+        <p>Jessy Orea</p>
+    </div>
+</footer>
+
+</body>
+</html>
